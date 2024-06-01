@@ -18,7 +18,10 @@ const About = () => {
         <button className='ml-[84px] bg-black text-white w-[160px] h-[50px] rounded-md flex items-center justify-center'>Get Started <FaArrowRight /> </button>
         <button className='flex justify-center items-center ml-12 gap-2'><IoPlayCircleOutline className='h-8 w-8' /> <p className=''>Watch Video</p> </button>
         </div>
-        <div className='flex items-center rotate-[-28deg] mt-[120px] ml-[-10px]'>
+        <div className='z-2 border-l-[28px] border-b-[72px] border-b-red-500 border-l-transparent  font-semibold h-[0px] w-[400px] flex justify-center items-center ml-[248px] mt-[120px] rotate-[-49deg]'>
+          <p className='text-md mt-16'>Make The Best Financial Decisions</p>
+        </div>
+        <div className='z-3 flex items-center rotate-[-28deg] mt-[-120px] ml-[10px]'>
           <span className='text-[100px] font-extrabold '>A</span>
           <div className='bg-black h-[74px] w-[790px] ml-[-30px] items-center flex flex-row justify-evenly pr-[20px] rounded-tr-lg rounded-br-lg text-white'>
             <div className='flex-row flex'>
@@ -38,10 +41,16 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div>
-        <div className='bg-red-500 border-l-[50px] border-b-[100px] border-b-red-500 font-semibold h-[71.66px] w-[440px] flex justify-center items-center ml-[220px]'>
-          <p className='text-md'>Make The Best Financial Decisions</p>
+        <div className='bg-red-500 rounded-md h-[65px] w-[280px] ml-[341px] mt-[42px] flex items-center'>
+          <div className='h-[65px] w-[2px] bg-black ml-12'></div>
+          <Image className='h-[41px] w-[41px] ml-4' src='/images/Star 1.png' height={41} width={41} alt='Hi' />
+          <div className='h-[65px] w-[2px] bg-black ml-4' ></div>
+          <div className='pl-6'>
+            <p className='text-sm font-bold'>Uifry Premium</p>
+            <p className='text-sm font-medium'>Free Trial</p>
+          </div>
         </div>
+        <div>
         </div>
       </div>
       <div className='relative mt-[-50px] h-[500px]'>
