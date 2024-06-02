@@ -15,14 +15,14 @@ const Features = () => {
         <Image className='max-sm:ml-[13.52%]  ml-[130px] z-20' src='/images/iPhone-13-Pro-Front(2).png' height={700} width={350} alt='Hi'/>
         </div>
       </div>
-    <div className='w-[50%]'>
+    <div className='w-[50%] max-sm:mt-[-130px] max-sm:mb-[200px] max-sm:w-[100%]'>
       <div className='p-[40px]'>
         <h1 className='text-red-500 tracking-widest font-medium mt-[50px]'>FEATURES</h1>
         <p className='font-[1000] text-4xl'>Uifry Premium</p>
         <div className='flex flex-col'>
           <div className='flex flex-col mt-[27px]'>
             <div className='flex'>
-            <Image src='/images/star-05.png' alt='Hi' height={24} width={24} />
+            <Image className='max-sm:h-[34px] w-[34px]' src='/images/star-05.png' alt='Hi' height={24} width={24} />
             <p className='font-bold ml-[8px]'>Budgeting Intervals</p>
             </div>
             <p>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt.</p>
