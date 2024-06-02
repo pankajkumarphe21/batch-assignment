@@ -5,8 +5,8 @@ import { RiMenu3Fill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <div className="mt-4 ml-[12.3vw]  mr-[10vw] justify-around flex items-center flex-wrap">
-      <div className=" flex">
+    <div className="mt-[4vh] ml-[12.3vw] mr-[10vw] justify-around flex items-center flex-wrap">
+      <div className=" flex ">
         <Image
           className=""
           alt="Hi"
