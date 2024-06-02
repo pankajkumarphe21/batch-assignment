@@ -10,7 +10,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div className='flex flex-col flex-wrap'>
       <Navbar/>
       <About/>
       <Features/>
