@@ -5,23 +5,23 @@ import { FaArrowRight } from "react-icons/fa";
 import { IoPlayCircleOutline } from "react-icons/io5";
 const About = () => {
   return (
-    <div className='flex relative'>
+    <div className='flex relative max-sm:mb-[20px]'>
       <div className="absolute top-[2px] left-[16vw] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
-      <div className="absolute max-sm:top-[50vh] top-[30vh] left-[59vw] w-80 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-red-200 rounded-[200px]"></div>
-      <div className="absolute max-sm:top-[290px] top-[290px] left-[72vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-      <div className="absolute top-[290px] left-[73vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-      <div className="absolute top-[290px] left-[74vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+      <div className="absolute max-sm:top-[120vh] max-sm:left-[40px] top-[30vh] left-[59vw] w-80 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-red-200 rounded-[200px]"></div>
+      <div className="absolute max-sm:left-[170px] max-sm:top-[820px] top-[290px] left-[72vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 max-sm:w-[400px] max-sm:h-[270px] w-[440px] h-[300px] border-[1px] border-black"></div>
+      <div className="absolute max-sm:top-[820px] max-sm:left-[178px] top-[290px] left-[73vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 max-sm:w-[400px] max-sm:h-[270px] w-[440px] h-[300px] border-[1px] border-black"></div>
+      <div className="absolute max-sm:top-[820px] max-sm:left-[186px] top-[290px] left-[74vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 max-sm:w-[400px] max-sm:h-[270px] w-[440px] h-[300px] border-[1px] border-black"></div>
       <div className='relative z-1 my-8 ml-8 w-[50%] pt-16 pl-12 pr-1'>
         <h1 className='ml-[84px] max-sm:ml-[10px] max-sm:mr-[-60px] max-sm:text-3xl text-5xl font-[1000]'>Make The Best Financial Decisions</h1>
         <h2 className='ml-[84px] mt-7 mr-[-44px] max-sm:ml-[10px]'>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</h2>
         <div className='flex max-sm:flex-col mt-6'>
         <button className='ml-[84px] max-sm:ml-[10px] bg-black text-white w-[160px] h-[50px] rounded-md flex items-center justify-center'>Get Started <FaArrowRight /> </button>
-        <button className='flex justify-center max-sm:ml-[10px] max-sm:mt-[10px] items-center ml-12 gap-2'><IoPlayCircleOutline className='h-8 w-8' /> <p className=''>Watch Video</p> </button>
+        <button className='flex justify-center max-sm:w-[140px] max-sm:mt-[20px] max-sm:ml-[10px] items-center ml-12 gap-2'><IoPlayCircleOutline className='h-8 w-8' /> <p className=''>Watch Video</p> </button>
         </div>
         <div className='z-2 border-l-[28px] border-b-[72px] border-b-red-500 border-l-transparent  font-semibold h-[0px] w-[400px] flex justify-center items-center ml-[248px] mt-[120px] rotate-[-49deg]'>
           <p className='text-md mt-16'>Make The Best Financial Decisions</p>
         </div>
-        <div className='z-3 flex items-center rotate-[-28deg] mt-[-120px] ml-[10px]'>
+        <div className='max-sm:absolute max-sm:mt-[300px] z-3 flex items-center rotate-[-28deg] mt-[-120px] ml-[10px]'>
           <span className='text-[100px] font-extrabold '>A</span>
           <div className='bg-black h-[74px] w-[790px] ml-[-30px] items-center flex flex-row justify-evenly pr-[20px] rounded-tr-lg rounded-br-lg text-white'>
             <div className='flex-row flex'>
@@ -53,10 +53,10 @@ const About = () => {
         <div>
         </div>
       </div>
-      <div className='relative mt-[-50px] h-[500px]'>
-        <Image className='z-2 h-[600px] w-[400px] mt-[150px] ml-[170px]' alt='Hi' src='/images/iPhone-13-Pro-Front.png' height={700} width={350}/>
-        <Image className='z-3 h-[600px] w-[400px] ml-[90px] mt-[-680px]' alt='Hi' src='/images/iPhone-13-Pro-Front(1).png' height={700} width={350}/>
-        <Image className='z-4 h-[600px] w-[400px] mt-[-680px]' alt='Hi' src='/images/iPhone-13-Pro-Front.png' height={700} width={350}/>
+      <div className='relative mt-[-50px] h-[500px] max-sm:absolute max-sm:mt-[500px] '>
+        <Image className='max-sm:relative z-2 h-[600px] w-[400px] max-sm:mt-[160px] mt-[150px] max-sm:top-[20px] ml-[170px] max-sm:h-[450px] max-sm:ml-[100px] max-sm:w-[300px] ' alt='Hi' src='/images/iPhone-13-Pro-Front.png' height={700} width={350}/>
+        <Image className='max-sm:absolute z-3 max-sm:h-[450px] max-sm:w-[300px]  h-[600px] w-[400px] ml-[90px] max-sm:ml-[50px] max-sm:mt-[-490px] mt-[-450px]' alt='Hi' src='/images/iPhone-13-Pro-Front(1).png' height={700} width={350}/>
+        <Image className='max-sm:absolute max-sm:mt-[-540px] z-4  max-sm:h-[450px] max-sm:w-[300px] h-[600px] w-[400px] mt-[-450px]' alt='Hi' src='/images/iPhone-13-Pro-Front.png' height={700} width={350}/>
       </div>
     </div>
   )

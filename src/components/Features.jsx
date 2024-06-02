@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Features = () => {
   return (
-    <div className='relative z-2 flex px-[2%] overflow-hidden'>
+    <div className='relative z-2 flex px-[2%] overflow-hidden max-sm:top-[200px]'>
       <div className="absolute z-1 top-[40px] left-[80%] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
       <div className='relative z-10'>
         <div className="absolute top-[40px] left-[70px] w-72 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
