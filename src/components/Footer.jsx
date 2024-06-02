@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col mt-[180px]'>
+    <div className='flex flex-col mt-[180px] w-[100%]'>
       <div className="flex">
-        <div className="flex flex-col contact ml-[140px]">
+        <div className="flex flex-col contact ml-[10vw]">
           <div className="flex uifry items-center">
             <Image src='/images/Frame.png' height={34} width={34}/>
             <p className='font-bold text-lg ml-[2px]'>uifry</p>
