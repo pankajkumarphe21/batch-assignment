@@ -8,13 +8,13 @@ const About = () => {
     <div className='flex relative'>
       <div className="absolute top-[2px] left-[16vw] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
       <div className="absolute max-sm:top-[50vh] top-[30vh] left-[59vw] w-80 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-red-200 rounded-[200px]"></div>
-      <div className="absolute top-[290px] left-[72vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+      <div className="absolute max-sm:top-[290px] top-[290px] left-[72vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
       <div className="absolute top-[290px] left-[73vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
       <div className="absolute top-[290px] left-[74vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
       <div className='relative z-1 my-8 ml-8 w-[50%] pt-16 pl-12 pr-1'>
         <h1 className='ml-[84px] max-sm:ml-[10px] max-sm:mr-[-60px] max-sm:text-3xl text-5xl font-[1000]'>Make The Best Financial Decisions</h1>
         <h2 className='ml-[84px] mt-7 mr-[-44px] max-sm:ml-[10px]'>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</h2>
-        <div className='flex flex-col mt-6'>
+        <div className='flex max-sm:flex-col mt-6'>
         <button className='ml-[84px] max-sm:ml-[10px] bg-black text-white w-[160px] h-[50px] rounded-md flex items-center justify-center'>Get Started <FaArrowRight /> </button>
         <button className='flex justify-center max-sm:ml-[10px] max-sm:mt-[10px] items-center ml-12 gap-2'><IoPlayCircleOutline className='h-8 w-8' /> <p className=''>Watch Video</p> </button>
         </div>
