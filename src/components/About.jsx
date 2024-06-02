@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='flex relative max-sm:mb-[20px]'>
       <div className="absolute top-[2px] left-[16vw] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
-      <div className="absolute max-sm:top-[120vh] max-sm:left-[40px] top-[30vh] left-[59vw] w-80 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-red-200 rounded-[200px]"></div>
+      <div className="absolute max-sm:top-[90vh] max-sm:left-[40px] top-[30vh] left-[59vw] w-80 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-red-200 rounded-[200px]"></div>
       <div className="absolute max-sm:left-[170px] max-sm:top-[820px] top-[290px] left-[72vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 max-sm:w-[400px] max-sm:h-[270px] w-[440px] h-[300px] border-[1px] border-black"></div>
       <div className="absolute max-sm:top-[820px] max-sm:left-[178px] top-[290px] left-[73vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 max-sm:w-[400px] max-sm:h-[270px] w-[440px] h-[300px] border-[1px] border-black"></div>
       <div className="absolute max-sm:top-[820px] max-sm:left-[186px] top-[290px] left-[74vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 max-sm:w-[400px] max-sm:h-[270px] w-[440px] h-[300px] border-[1px] border-black"></div>
@@ -18,12 +18,12 @@ const About = () => {
         <button className='ml-[84px] max-sm:ml-[10px] bg-black text-white w-[160px] h-[50px] rounded-md flex items-center justify-center'>Get Started <FaArrowRight /> </button>
         <button className='flex justify-center max-sm:w-[140px] max-sm:mt-[20px] max-sm:ml-[10px] items-center ml-12 gap-2'><IoPlayCircleOutline className='h-8 w-8' /> <p className=''>Watch Video</p> </button>
         </div>
-        <div className='z-2 border-l-[28px] border-b-[72px] border-b-red-500 border-l-transparent  font-semibold h-[0px] w-[400px] flex justify-center items-center ml-[248px] mt-[120px] rotate-[-49deg]'>
+        <div className='z-2 border-l-[28px] border-b-[72px] border-b-red-500 border-l-transparent  font-semibold h-[0px] w-[400px] flex justify-center items-center ml-[248px] mt-[120px] rotate-[-49deg] max-sm:rotate-0 max-sm:ml-[-60px] max-sm:mt-[500px] max-sm:w-[90vw]'>
           <p className='text-md mt-16'>Make The Best Financial Decisions</p>
         </div>
-        <div className='max-sm:absolute max-sm:mt-[300px] z-3 flex items-center rotate-[-28deg] mt-[-120px] ml-[10px]'>
-          <span className='text-[100px] font-extrabold '>A</span>
-          <div className='bg-black h-[74px] w-[790px] ml-[-30px] items-center flex flex-row justify-evenly pr-[20px] rounded-tr-lg rounded-br-lg text-white'>
+        <div className='max-sm:absolute max-sm:mt-[300px] max-sm:rotate-[0deg] z-3 flex items-center rotate-[-28deg] mt-[-120px] ml-[10px]'>
+          <span className='text-[100px] font-extrabold max-sm:hidden'>A</span>
+          <div className='bg-black max-sm:flex max-sm:w-[250px] max-sm:gap-[10px] max-sm:h-[170px] max-sm:mt-[-130px] max-sm:flex-col h-[74px] w-[790px] max-sm:ml-[-20px] ml-[-30px] items-center max-sm:rounded-none flex flex-row justify-evenly max-sm:pl-[20px] pr-[20px] rounded-tr-lg rounded-br-lg text-white'>
             <div className='flex-row flex'>
               <Image className='h-[44px] w-[44px] rotate-[28deg]' src='/images/Group 35907.png' height={28} width={28} alt='Hi' />
               <div className='flex-col flex'>
@@ -31,7 +31,7 @@ const About = () => {
                 <div className='font-light text-sm'>Best Finance App on PlayStore</div>
               </div>
             </div>
-            <div className='bg-zinc-200 h-8 w-[1px] rotate-[28deg]'></div>
+            <div className='bg-zinc-200 h-8 w-[1px] rotate-[28deg] max-sm:hidden'></div>
             <div className='flex-row flex'>
               <Image className='h-[44px] w-[44px] rotate-[28deg]' src='/images/Group 35908.png' height={28} width={28} alt='Hi' />
               <div className='flex-col flex'>
@@ -41,7 +41,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='bg-red-500 rounded-md h-[65px] w-[280px] ml-[341px] mt-[42px] flex items-center'>
+        <div className='bg-red-500 rounded-md h-[65px] w-[280px] max-sm:ml-[-19px] ml-[341px] mt-[42px] flex items-center'>
           <div className='h-[65px] w-[2px] bg-black ml-12'></div>
           <Image className='h-[41px] w-[41px] ml-4' src='/images/Star 1.png' height={41} width={41} alt='Hi' />
           <div className='h-[65px] w-[2px] bg-black ml-4' ></div>
