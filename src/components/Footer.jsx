@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='flex flex-col mt-[180px] w-[100%]'>
       <div className="flex">
-        <div className="flex flex-col contact ml-[10vw]">
+        <div className="flex flex-col contact ml-[80px] max-sm:ml-[10vw]">
           <div className="flex uifry items-center">
             <Image src='/images/Frame.png' height={34} width={34}/>
             <p className='font-bold text-lg ml-[2px]'>uifry</p>
@@ -20,26 +20,26 @@ const Footer = () => {
             <p className='font-[500] text-sm ml-[2px]'>+1234 456 678 89 </p>
           </div>
         </div>
-        <div className="flex flex-col links mt-[2px] ml-[70px]">
+        <div className="flex flex-col links mt-[2px] ml-[80px] max-sm:ml-[9vw]">
           <h1 className='text-xl font-semibold'>Links</h1>
           <a className='font-medium mt-[10px]' href="">Home</a>
           <a className='font-medium mt-[10px]'  href="">About Us</a>
           <a className='font-medium mt-[10px]'  href="">Bookings</a>
           <a className='font-medium mt-[10px]'  href="">Blog</a>
         </div>
-        <div className="flex flex-col mt-[2px] ml-[70px]">
+        <div className="flex flex-col mt-[2px] ml-[80px] max-sm:ml-[9vw]">
           <h1 className='text-xl font-semibold'>Legal</h1>
           <a className='font-medium mt-[10px]' href="">Terms Of Use</a>
           <a className='font-medium mt-[10px]'  href="">Privacy Policy</a>
           <a className='font-medium mt-[10px]'  href="">Cookie Policy</a>
         </div>
-        <div className="flex flex-col mt-[2px] ml-[70px]">
+        <div className="flex flex-col mt-[2px] ml-[80px] max-sm:ml-[9vw]">
           <h1 className='text-xl font-semibold'>Products</h1>
           <a className='font-medium mt-[10px]' href="">Take tour</a>
           <a className='font-medium mt-[10px]'  href="">Live Chat</a>
           <a className='font-medium mt-[10px]'  href="">Reviews</a>
         </div>
-        <div className="flex flex-col mt-[2px] ml-[70px]">
+        <div className="flex flex-col mt-[2px] ml-[80px] max-sm:ml-[9vw]">
           <h1 className='text-xl font-semibold'>Newsletter</h1>
           <a className='font-medium mt-[10px]' href="">Stay Up to Date</a>
           <div className='mt-[10px] bg-white'>

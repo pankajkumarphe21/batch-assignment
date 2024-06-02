@@ -1,16 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import { RiMenu3Fill } from "react-icons/ri";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
-    console.log('Hi ')
-    setIsOpen(!isOpen);
-  };
   return (
-    <div className="mt-4 ml-[12.3vw] mr-[10vw] justify-around flex items-center flex-wrap">
+    <div className="mt-4 ml-[12.3vw]  mr-[10vw] justify-around flex items-center flex-wrap">
       <div className=" flex">
         <Image
           className=""
@@ -52,34 +47,9 @@ const Navbar = () => {
         width={66}
         height={66}
       />
-      <div className="sm:hidden bg-red-600" onClick={handleClick}>
+      <div className="sm:hidden">
         <RiMenu3Fill />
       </div>
-      {isOpen && (
-        <div className="flex flex-col">
-          <a
-            className="text-[3vh] text-red-400 font-extrabold"
-            href=""
-          >
-            Home
-          </a>
-          <a className="text-[3vh] font-extrabold" href="">
-            About Us
-          </a>
-          <a className="text-[3vh] font-extrabold" href="">
-            Pricing
-          </a>
-          <a
-            className="text-[3vh] font-extrabold mr-[19vw]"
-            href=""
-          >
-            Features
-          </a>
-          <button className=" bg-black text-white w-[160px] h-[50px] rounded-md">
-            Download
-          </button>
-        </div>
-      )}
     </div>
   );
 };
