@@ -8,9 +8,9 @@ const About = () => {
     <div className='flex relative'>
       <div className="absolute top-[2px] left-[270px] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
       <div className="absolute top-[200px] left-[750px] w-80 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-red-200 rounded-[200px]"></div>
-      <div className="absolute top-[290px] left-[890px] rounded-[240px] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-      <div className="absolute top-[290px] left-[920px] rounded-[240px] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-      <div className="absolute top-[290px] left-[950px] rounded-[240px] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+      <div className="absolute top-[290px] left-[960px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+      <div className="absolute top-[290px] left-[990px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+      <div className="absolute top-[290px] left-[1020px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
       <div className='relative z-1 my-8 ml-8 w-[50%] pt-16 pl-12 pr-1'>
         <h1 className='ml-[84px] text-5xl font-[1000]'>Make The Best Financial Decisions</h1>
         <h2 className='ml-[84px] mt-7 mr-[-24px]'>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</h2>

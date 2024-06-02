@@ -7,9 +7,9 @@ const Features = () => {
       <div className='relative z-10 overflow-hidden'>
         <div className="absolute top-[40px] left-[70px] w-72 h-64 bg-gradient-to-t blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
         <div className="absolute top-[40px] sm:left-[560px] md:left-[760px] lg:left-[1020px] xl:left-[1190px] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
-        <div className="z-10 absolute top-[240px] left-[230px] rounded-[240px] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-        <div className="z-10 absolute top-[240px] left-[260px] rounded-[240px] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-        <div className="z-10 absolute top-[240px] left-[290px] rounded-[240px] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+        <div className="z-10 absolute top-[240px] left-[230px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+        <div className="z-10 absolute top-[240px] left-[260px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+        <div className="z-10 absolute top-[240px] left-[290px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
         <div className='relative z-30'>
         <Image className='md:ml-10 lg:ml-20 xl:ml-[130px] z-20' src='/images/iPhone-13-Pro-Front(2).png' height={700} width={350} alt='Hi'/>
         </div>
