@@ -6,9 +6,9 @@ const Advantages = () => {
     <div>
       <div className="flex relative">
         <div className="absolute top-[40px] sm:left-[360px] md:left-[460px] lg:left-[620px] xl:left-[740px] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
-        <div className="absolute top-[190px] left-[890px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black "></div>
-        <div className="absolute top-[190px] left-[920px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-        <div className="absolute top-[190px] left-[950px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+        <div className="absolute top-[190px] left-[62vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black "></div>
+        <div className="absolute top-[190px] left-[63vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
+        <div className="absolute top-[190px] left-[64vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
         <div className="flex flex-col sm:ml-4 md:ml-12 lg:ml-24 xl:ml-32 w-[30%]">
           <h6 className="text-red-500">ADVANTAGES</h6>
           <h1 className="text-4xl font-extrabold tracking-tight">
