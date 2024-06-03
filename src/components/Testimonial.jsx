@@ -20,12 +20,12 @@ const Testimonial = () => {
         <div className='absolute max-sm:left-[2%] max-sm:top-[770px] max-sm:w-[140%] left-[50%] top-[370px] pl-16 pr-[230px] w-[50%]'>
             <h3 className='text-lg font-[900]'>The Best Financial Accounting App Ever!</h3>
             <p className='mt-4'>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, blanditiis minus? Animi optio mollitia totam! Praesentium dicta magnam, rem laborum in consequatur nobis tempore vero molestiae, sit, magni similique iste culpa excepturi. Nihil? Lorem ipsum dolor sit amet consectetur, adipisicing elit."</p>
-            <Image className='absolute max-sm:top-[350px] top-[250px] left-[65px]' src='/images/Group 28.png' alt='Hi' height={38} width={38} />
-            <Image className='absolute max-sm:top-[353px] top-[253px] left-[112px] opacity-50' src='/images/Group 27.png' alt='Hi' height={30} width={30} />
-            <Image className='absolute max-sm:top-[353px] top-[253px] left-[152px] opacity-50' src='/images/Group 29.png' alt='Hi' height={30} width={30} />
-            <Image className='absolute max-sm:top-[353px] top-[253px] left-[192px] opacity-50' src='/images/Intersect.png' alt='Hi' height={25} width={25} />
-            <Image className='absolute max-sm:top-[353px] top-[253px] left-[232px] opacity-50' src='/images/Group 31.png' alt='Hi' height={30} width={30} />
-            <h3 className='mt-[105px] font-bold'>Nick Jonas</h3>
+            <Image className='absolute max-sm:top-[580px] top-[250px] left-[65px]' src='/images/Group 28.png' alt='Hi' height={38} width={38} />
+            <Image className='absolute max-sm:top-[583px] top-[253px] left-[112px] opacity-50' src='/images/Group 27.png' alt='Hi' height={30} width={30} />
+            <Image className='absolute max-sm:top-[583px] top-[253px] left-[152px] opacity-50' src='/images/Group 29.png' alt='Hi' height={30} width={30} />
+            <Image className='absolute max-sm:top-[583px] top-[253px] left-[192px] opacity-50' src='/images/Intersect.png' alt='Hi' height={25} width={25} />
+            <Image className='absolute max-sm:top-[583px] top-[253px] left-[232px] opacity-50' src='/images/Group 31.png' alt='Hi' height={30} width={30} />
+            <h3 className='mt-[105px] max-sm:mt-[230px] font-bold'>Nick Jonas</h3>
         </div>
     </div>
   )
