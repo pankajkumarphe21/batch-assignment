@@ -2,7 +2,7 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="relative mt-[590px] ml-[150px] mr-[150px] flex flex-col">
+    <div className="relative max-sm:mt-[890px] mt-[590px] ml-[150px] mr-[150px] flex flex-col">
       <h1 className="text-red-500">FAQ</h1>
       <h2 className="text-4xl font-[1000]">Frequently Asked</h2>
       <h2 className="text-4xl font-[1000]">Questions</h2>
