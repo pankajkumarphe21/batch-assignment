@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Testimonial = () => {
   return (
-    <div className='relative pt-48 flex flex-col items-center'>
+    <div className='relative pt-48 max-sm:pt-64 flex flex-col items-center'>
         <h6>TESTIMONIAL</h6>
         <h3 className='text-3xl font-[1000]'>What Our Users</h3>
         <h3 className='text-3xl font-[1000]'>Say About Us?</h3>
