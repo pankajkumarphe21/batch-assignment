@@ -5,11 +5,11 @@ const Advantages = () => {
   return (
     <div>
       <div className="flex relative">
-        <div className="absolute top-[40px] sm:left-[360px] md:left-[460px] lg:left-[620px] xl:left-[740px] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
+        <div className="absolute top-[40px] sm:left-[360px] md:left-[460px] lg:left-[620px] xl:left-[740px] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px] max-sm:hidden"></div>
         <div className="absolute top-[190px] left-[62vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black "></div>
         <div className="absolute top-[190px] left-[63vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
         <div className="absolute top-[190px] left-[64vw] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
-        <div className="flex flex-col sm:ml-4 md:ml-12 lg:ml-24 xl:ml-32 w-[30%]">
+        <div className="flex flex-col sm:ml-4 md:ml-12 lg:ml-24 xl:ml-32 w-[30%] max-sm:w-[100%]">
           <h6 className="text-red-500">ADVANTAGES</h6>
           <h1 className="text-4xl font-extrabold tracking-tight">
             Why Choose Uifry?
@@ -41,7 +41,7 @@ const Advantages = () => {
         </div>
       </div>
       <div className="flex relative">
-      <div className="absolute top-[40px] sm:left-[160px] md:left-[180px] lg:left-[200px] xl:left-[220px] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 from-red-600 to-yellow-200 rounded-[200px]"></div>
+      <div className="absolute top-[40px] sm:left-[160px] md:left-[180px] lg:left-[200px] xl:left-[220px] w-72 h-64 bg-gradient-to-b blur-lg opacity-75 max-sm:hidden from-red-600 to-yellow-200 rounded-[200px]"></div>
         <div className="absolute top-[230px] left-[370px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black "></div>
         <div className="absolute top-[200px] left-[400px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
         <div className="absolute top-[170px] left-[430px] rounded-[50%] rotate-[58deg] transform -translate-x-1/2 -translate-y-1/2 w-[440px] h-[300px] border-[1px] border-black"></div>
